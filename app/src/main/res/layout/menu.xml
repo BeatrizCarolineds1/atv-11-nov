@@ -1,6 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu Principal"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#4667DB"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCadastrar"
+        android:layout_width="350dp"
+        android:layout_height="56dp"
+        android:layout_margin="10dp"
+        android:text="Cadastrar estudos"
+        android:layout_gravity="center_horizontal"
+        app:cornerRadius="0dp"
+        android:backgroundTint="#476BC5"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnConsultar"
+        android:layout_width="350dp"
+        android:layout_height="56dp"
+        android:layout_margin="10dp"
+        android:text="Consultar estudos"
+        android:layout_gravity="center_horizontal"
+        app:cornerRadius="0dp"
+        android:backgroundTint="#476BC5"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_margin="10dp"
+        android:text="Perfil do estudante"
+        android:layout_gravity="center_horizontal"
+        app:cornerRadius="0dp"
+        android:backgroundTint="#476BC5"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnEstatisticas"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_margin="10dp"
+        android:text="Estatísticas"
+        android:layout_gravity="center_horizontal"
+        app:cornerRadius="0dp"
+        android:backgroundTint="#476BC5"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAjuda"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_margin="10dp"
+        android:text="Ajuda"
+        android:layout_gravity="center_horizontal"
+        app:cornerRadius="0dp"
+        android:backgroundTint="#476BC5"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSobre"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_margin="10dp"
+        android:text="Sobre"
+        android:layout_gravity="center_horizontal"
+        app:cornerRadius="0dp"
+        android:backgroundTint="#476BC5"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSair"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_margin="10dp"
+        android:text="Sair"
+        android:layout_gravity="center_horizontal"
+        app:cornerRadius="0dp"
+        android:backgroundTint="#476BC5"/>
+
+
+
+
+</LinearLayout>
